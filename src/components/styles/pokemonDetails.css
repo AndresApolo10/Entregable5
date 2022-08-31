@@ -1,0 +1,182 @@
+.card__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card__pokemon {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 1px;
+    background-color: #fff;
+    box-shadow: 0 1px 7px #0003;
+    margin-top: 3em;
+    margin-bottom: -5em;
+}
+.card__pokemon-header {
+    position: relative;
+    height: 120px; 
+}
+.bg-fire {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);   
+}
+.bg-grass {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-water {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-bug {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-normal {
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bg-fighting {
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-poison {
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+.bg-ghost {
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+.bg-rock {
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-dark {
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-ice {
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-steel {
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+.bg-dragon {
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-fairy {
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+.bg-electric {
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+}
+.bg-ground {
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+.bg-psychic {
+    background: linear-gradient(90deg, rgba(215,215,65,1) 0%, rgba(243,247,126,1) 100%, rgba(0,212,255,1) 100%);
+}
+.card__img {
+    position: absolute;
+    width: 15%;
+    left: 50%;
+    top: -50px; 
+    transform: translateX(-50%);
+}
+.card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card__h3 {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+}
+.card__h3-1 {
+    font-weight: lighter;
+}
+.card__types-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__types {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+ .card__types-1 {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+}
+.card__type-list {
+    background-color: cadetblue;
+    width: 150px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 1px 7px #0003;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+.card__type-list-1 {
+    border: 1px solid ;
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 1px 7px #0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+.card__stats h3 {
+   padding-left: 130px;
+   font-size: 25px;
+}
+.card__hr1 {
+    border: none;
+    border-top: 0.5px solid #E5E5E5;
+}
+.card__footer-move {
+    max-width: 1200px;
+    min-height: 100vh;
+    border-radius: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 1px 7px #0003;
+    margin-top: 7em;
+    margin-bottom: -7em;
+}
+.card__footer1 {
+    padding-left: 130px;
+    font-size: 25px; 
+}
+.card__ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
+.card__move {
+    list-style: none;
+    padding-left: 90px;
+    background-color: #E5E5E5;
+    width: 100px;
+    height: 25px;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    gap: 1em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+

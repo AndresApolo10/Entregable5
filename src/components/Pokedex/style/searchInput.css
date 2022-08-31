@@ -1,0 +1,25 @@
+ .input__search {
+    padding: 8px 12px;
+    border: 0;
+    width: min-content;
+    width: 300px; 
+    height: 20px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 1px 7px #0003;
+} 
+.input__search::placeholder {
+    color: #d3d3d3;
+}
+.search__btn {
+    padding: 8px 12px;
+    width: 100px;
+    height: 38px;
+    border: none;
+    background-color: #FE1936;
+    box-shadow: 0 1px 5px #FE1936;
+    color: white;
+    cursor: pointer;
+}
+.search__btn:hover {
+    filter: brightness(1.1);
+}
